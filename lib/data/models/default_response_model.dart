@@ -1,0 +1,55 @@
+import 'package:mts/core/network/base_api_response.dart';
+import 'package:mts/data/models/meta_model.dart';
+import 'package:mts/data/models/paginator_model.dart';
+
+class DefaultResponseModel extends BaseAPIResponse<dynamic, void> {
+  DefaultResponseModel(super.fullJson);
+
+  @override
+  Null dataToJson(data) {
+    return null;
+  }
+
+  @override
+  Null metaToJson(meta) {
+    return null;
+  }
+
+  @override
+  Null errorsToJson(errors) {
+    return null;
+  }
+
+  @override
+  dynamic jsonToData(Map<String, dynamic>? json) {
+    if (json != null) {
+      return json['data'];
+    }
+    return null;
+  }
+
+  @override
+  MetaModel? jsonToMeta(Map<String, dynamic>? json) {
+    if (json != null) {
+      if (json['meta'] != null) {
+        return MetaModel.fromJson(json['meta']);
+      }
+    }
+    return null;
+  }
+
+  @override
+  Null jsonToError(Map<String, dynamic>? json) {
+    return null;
+  }
+
+  @override
+  PaginatorModel? jsonToPaginator(Map<String, dynamic>? json) {
+    return null;
+  }
+
+  @override
+  PaginatorModel? paginatorToJson(PaginatorModel? paginatorModel) {
+    return null;
+  }
+}

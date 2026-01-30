@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Epson thermal printers -->
+    <usb-device vendor-id="0x04b8" product-id="0x0202"/>
+    
+    <!-- Star Micronics thermal printers -->
+    <usb-device vendor-id="0x0519" product-id="0x0011"/>
+    <usb-device vendor-id="0x0519" product-id="0x8383"/>
+    
+    <!-- Citizen thermal printers -->
+    <usb-device vendor-id="0x1d90" product-id="0x0701"/>
+    
+    <!-- iMin thermal printers (iMin Swan 2 Pro and variants) -->
+    <usb-device vendor-id="0x0fe6" product-id="0x811e"/>
+    <usb-device vendor-id="0x0fe6" product-id="0x8120"/>
+    <usb-device vendor-id="0x0fe6" product-id="0x811f"/>
+    
+    <!-- Alternative iMin vendor ID -->
+    <usb-device vendor-id="0x25a7"/>
+    
+    <!-- Generic USB printer devices (class 7) will be matched by class,
+         not by vendor/product ID, so we don't need to list them all here -->
+</resources>

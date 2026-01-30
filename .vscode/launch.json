@@ -1,0 +1,53 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+
+        {
+            "name": "mts (debug mode)",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "mts (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "mts (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Second Screen Only (RELEASE)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/testing_package/second_display/second_display_test.dart",
+            "flutterMode": "release"
+          },
+        {
+            "name": "Flutter Thermal",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/testing_package/flutter_thermal/main.dart"
+          },
+        {
+            "name": "Flutter Blue Plus",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/testing_package/flutter_blue_plus/main.dart"
+          },
+           {
+            "name": "Imin Printer",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/testing_package/imin_printer/main.dart"
+        }
+    ]
+}

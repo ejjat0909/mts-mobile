@@ -1,0 +1,21 @@
+icons_launcher:
+  image_path: 'assets/images/app-logo/logo_white_radius.png'
+  platforms:
+    android:
+      enable: true
+      image_path: 'assets/images/app-logo/logo_white_radius.png'
+      notification_image: "assets/images/app-logo/logo_transparent.png"
+      adaptive_background_color: '#ffffff'
+      # adaptive_background_image: 'assets/images/app-logo/ic_background.png'
+      adaptive_foreground_image: 'assets/images/app-logo/logo_transparent.png'
+      adaptive_round_image: 'assets/images/app-logo/logo_white_circle.png'
+      adaptive_monochrome_image: 'assets/images/app-logo/logo_transparent.png'
+    ios:
+      enable: true
+      image_path: 'assets/images/app-logo/logo_white_rectangle.png'
+      # For iOS 18+ (support dark and tinted)
+      dark_path: "assets/images/app-logo/logo_white_rectangle.png"
+      tinted_path: "assets/images/app-logo/logo_white_rectangle.png"
+
+  # AFTER configure it, run this command
+  # dart run icons_launcher:create

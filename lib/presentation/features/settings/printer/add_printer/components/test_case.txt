@@ -1,0 +1,11 @@
+/*
+================= TEST CASE FOR BLUETOOTH PRINTER ==========================
+1. bl already disconnected
+2. user enter add printer page
+3. user turn on bl from device
+4. user press Print Test button (expected: no device selected)
+5. user change bluetooth printer and press print test btn (expected: printed)
+6. change to no device again and print test (expected: no device selected)
+7. change back to POS Printer and print test (expected: printed)
+============================================================================
+*/
